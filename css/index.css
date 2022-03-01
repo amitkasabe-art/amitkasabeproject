@@ -1,0 +1,50 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+:root{
+	--primary:coral;
+	--button:dodgerblue;
+	--background-color: whitesmoke;
+}
+body
+{
+	background-color: var(--whitesmoke);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+
+}
+.calculate
+{
+	background-color: var(--button)!important;
+	color: white;
+}
+form
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 500px;
+	height:200px;
+	background-color: var(--primary);
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 3px 5px 15px #000;
+}
+input[type=number]
+{
+	width: 100%;
+	margin:10px;
+	height:60px;
+	border-radius: 8px!important;
+	outline: none;
+	border: none;
+}
+input[type=number]
+{
+	outline: none;
+}
