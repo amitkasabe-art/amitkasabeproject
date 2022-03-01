@@ -4,6 +4,7 @@ if (isset($_POST['calculate'])) {
 	# code...
 	$degree = $_POST['degree'];
 	$result = ($degree * 1.8) + 32;
+	// add
 }
 
 
